@@ -37,7 +37,7 @@ class ItemsAdapter(private var activity: Activity, numberQuantity: Int = 1000000
 
         viewHolder.txtName?.setTextColor(ContextCompat.getColor(activity, if (position % 2 == 0) R.color.lightColor else R.color.darkColor))
 
-        viewHolder.txtName?.text = NumberToText.convertToText(position + 1)
+        viewHolder.txtName?.text = NumberToText.convertToText(1000000 - (position + 1)) + "${1000000 - (position + 1)}"
 
         return view as View
     }
