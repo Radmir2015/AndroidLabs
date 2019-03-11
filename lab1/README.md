@@ -2,7 +2,7 @@
 Android's Laboratory Works for University
 
 # The problem
-The problem is to create an app with a splash-screen with 2 seconds delay for it and the next actitivy for a list-view with 1.000.000 elements with spelled indexes.
+The problem is to create an app with a splash-screen with 2 seconds delay for it and the next activity for a list-view with 1.000.000 elements with spelled indexes.
 
 # Result
 1st screen | 2nd screen | 3rd screen | 4th screen
